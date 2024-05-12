@@ -1,0 +1,95 @@
+
+/*Body*/
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(117, 213, 245), rgb(103, 186, 246));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Header*/
+header {
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(29, 45, 66);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+li {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+/*Links*/
+
+a:visited {
+    color: rgb(103, 186, 246);
+}
+a:link {
+    color: rgb(111, 200, 229);
+}
+
+a:hover {
+    color: blue;
+}
+
+/*Main*/
+main {
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(216, 240, 249);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.contatoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.portfolioMain {
+    text-align: center;
+}
+
+img {
+    height: 53vh;
+    width: 85vh;
+}
+
+/*Contato*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form div input, textarea {
+    margin: 5px 0 0 0;
+    resize: none;
+}
